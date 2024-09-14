@@ -33,7 +33,7 @@ export default function Home() {
         </p>
       </motion.section>
 
-      {/* Experience */}
+      {/* Professional Experience */}
       <motion.section id="experience" className="p-12 bg-gradient-to-r from-gray-200 via-gray-300 to-gray-400 text-gray-900">
         <h2 className="text-5xl font-bold text-center mb-12">Professional Experience</h2>
         <div className="space-y-12">
@@ -69,6 +69,40 @@ export default function Home() {
               <li>Developed comprehensive documentation for troubleshooting processes and workflows, enhancing team efficiency and response times.</li>
               <li>Worked closely with product development teams to improve system performance based on user feedback and real-world data.</li>
               <li>Assisted with global application support requests, resolving issues related to software, hardware, and infrastructure.</li>
+            </ul>
+          </motion.div>
+        </div>
+      </motion.section>
+
+      {/* Education */}
+      <motion.section id="education" className="p-12 bg-gradient-to-r from-gray-200 via-gray-300 to-gray-400 text-gray-900">
+        <h2 className="text-5xl font-bold text-center mb-12">Education</h2>
+        <div className="space-y-12">
+          <motion.div whileHover={{ scale: 1.02 }} transition={{ duration: 0.3 }} className="bg-white p-8 rounded-lg shadow-md">
+            <h3 className="text-3xl font-bold text-purple-700">Bachelor's in Information Technology - Haaga-Helia University of Applied Sciences</h3>
+            <p className="mt-2 text-lg">September 2019 - May 2024 | Helsinki, Finland</p>
+            <ul className="mt-4 text-xl space-y-2">
+              <li>Focused on cloud computing, network security, and software development.</li>
+              <li>Completed projects on cloud infrastructure optimization and automated testing systems, gaining hands-on experience with AWS, Azure, and Kubernetes.</li>
+              <li>Developed a deep understanding of DevOps practices and system architecture design.</li>
+            </ul>
+          </motion.div>
+
+          <motion.div whileHover={{ scale: 1.02 }} transition={{ duration: 0.3 }} className="bg-white p-8 rounded-lg shadow-md">
+            <h3 className="text-3xl font-bold text-purple-700">Full Stack Web Development - Helsinki Business College Oy</h3>
+            <p className="mt-2 text-lg">2019 | Helsinki, Finland</p>
+            <ul className="mt-4 text-xl space-y-2">
+              <li>Learned full stack web development, focusing on both front-end (HTML, CSS, JavaScript) and back-end technologies (Node.js, MongoDB).</li>
+              <li>Completed a capstone project that involved building a responsive web application with a custom API and user authentication.</li>
+            </ul>
+          </motion.div>
+
+          <motion.div whileHover={{ scale: 1.02 }} transition={{ duration: 0.3 }} className="bg-white p-8 rounded-lg shadow-md">
+            <h3 className="text-3xl font-bold text-purple-700">Bachelor’s in Logistics & Supply Chain Management - Tampere University of Applied Sciences</h3>
+            <p className="mt-2 text-lg">2016 - 2018 | Tampere, Finland</p>
+            <ul className="mt-4 text-xl space-y-2">
+              <li>Specialized in optimizing supply chain systems and logistics processes, with a focus on cost reduction and process automation.</li>
+              <li>Developed solutions for efficient resource allocation in various industries, including retail and manufacturing.</li>
             </ul>
           </motion.div>
         </div>
