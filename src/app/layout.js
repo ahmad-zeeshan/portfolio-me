@@ -1,8 +1,10 @@
+// src/app/layout.js
+
 import './globals.css';
 
 export const metadata = {
   title: 'Zeeshan Ahmad Portfolio',
-  description: 'Portfolio of Zeeshan Ahmad, Site Reliability Engineer',
+  description: 'Portfolio of Zeeshan Ahmad, Senior Site Reliability Engineer @ RELEX',
 };
 
 export default function RootLayout({ children }) {
